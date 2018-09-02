@@ -1,0 +1,11 @@
+{
+    "name": "synega/storage",
+    "authors": [
+        {
+            "name": "Alexandru Ailenei",
+            "email": "ailenei.alexandru@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

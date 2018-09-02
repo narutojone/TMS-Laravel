@@ -1,0 +1,43 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+// Variables
+@import "variables";
+
+// Mixins
+@import "inspinia/mixins";
+
+// Components
+@import "components/chosen";
+@import "components/quill";
+
+// INSPINIA Theme Elements
+@import "inspinia/typography";
+@import "inspinia/navigation";
+@import "inspinia/top_navigation";
+@import "inspinia/buttons";
+@import "inspinia/badgets_labels";
+@import "inspinia/elements";
+@import "inspinia/sidebar";
+@import "inspinia/base";
+@import "inspinia/pages";
+@import "inspinia/chat";
+@import "inspinia/spinners";
+
+// Landing page styles
+@import "inspinia/landing";
+
+// Media query style
+@import "inspinia/media";
+
+// Clear layout on print mode
+@media print {
+  nav.navbar-static-side {
+    display: none;
+  }
+  body { overflow: visible !important; }
+
+  #page-wrapper {
+    margin: 0;
+  }
+}
